@@ -1,9 +1,8 @@
 import { Github, Linkedin, Twitter } from "lucide-react"
 
 const skills = [
-  { category: "Frontend", items: ["React", "Next.js", "TypeScript", "Tailwind CSS"] },
-  { category: "Backend", items: ["Node.js", "Python", "PostgreSQL", "GraphQL"] },
-  { category: "Tools", items: ["Git", "Docker", "AWS", "Vercel"] },
+  { category: "Languages", items: ["Luau", "Node.js", "Discord.js"] },
+  { category: "Tools", items: ["Visual Studio Code", "Roblox Studio", "Figma"] },
 ]
 
 const socials = [
@@ -21,23 +20,28 @@ export function About() {
             <p className="text-muted-foreground text-sm tracking-[0.2em] uppercase mb-4">
               About
             </p>
+
             <h2 className="text-3xl md:text-4xl font-light mb-8 text-balance">
-              Building digital products that make a difference
+              Roblox developer building immersive and scalable systems
             </h2>
+
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p>
-                I&apos;m a full-stack developer passionate about crafting accessible, 
-                performant web experiences. My work lies at the intersection of design 
-                and engineering, creating products that are both beautiful and functional.
+                I&apos;m a Roblox developer focused on creating engaging and optimized 
+                game systems. From UI/UX to backend logic, I design experiences that 
+                are both smooth and enjoyable for players.
               </p>
+
               <p>
-                With over 5 years of experience, I&apos;ve had the opportunity to work with 
-                startups and established companies, helping them build scalable 
-                applications and design systems.
+                I specialize in Luau scripting, DataStore systems, custom UI, and 
+                advanced features like voice chat interactions, donation systems, 
+                and player progression. I also build Discord bots to support and 
+                manage communities around my projects.
               </p>
+
               <p>
-                When I&apos;m not coding, you&apos;ll find me exploring new technologies, 
-                contributing to open source, or sharing knowledge through writing and speaking.
+                My goal is simple: create clean, efficient systems and unique 
+                gameplay experiences that players actually remember.
               </p>
             </div>
 
@@ -60,7 +64,10 @@ export function About() {
           <div className="space-y-8">
             {skills.map((skill) => (
               <div key={skill.category}>
-                <h3 className="text-sm text-muted-foreground mb-4">{skill.category}</h3>
+                <h3 className="text-sm text-muted-foreground mb-4">
+                  {skill.category}
+                </h3>
+
                 <div className="flex flex-wrap gap-2">
                   {skill.items.map((item) => (
                     <span
