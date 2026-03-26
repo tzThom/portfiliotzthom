@@ -107,16 +107,15 @@ export function Hero() {
       
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">
-          Full-Stack Developer
+          Lua Developer
         </p>
         
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight mb-8 text-balance">
-          Alex Chen
+          TzThom
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed text-pretty">
-          Crafting digital experiences at the intersection of design and technology. 
-          Building performant, accessible, and beautiful web applications.
+          Creator of Roblox games for fun. As a Roblox game creator, both for fun and to earn money, I specialize in designing voice chat experiences that captivate French players. My passion for game development drives me to constantly innovate and create memorable adventures.
         </p>
 
         <div className="flex items-center justify-center gap-6 text-sm text-muted-foreground">
